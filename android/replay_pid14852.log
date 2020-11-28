@@ -1,0 +1,245 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 130 ciObject found
+ciMethod java/lang/Class getName ()Ljava/lang/String; 2049 1 92519 0 -1
+ciMethod java/lang/Class getClassLoader0 ()Ljava/lang/ClassLoader; 1041 1 130 0 -1
+ciMethod java/lang/Class getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; 2081 1 5380 76 -1
+ciMethod java/lang/Class checkMemberAccess (ILjava/lang/Class;Z)V 2105 1 5418 0 96
+ciMethod java/lang/Class checkPackageAccess (Ljava/lang/ClassLoader;Z)V 145 1 528 0 -1
+ciMethod java/lang/Class getMethod0 (Ljava/lang/String;[Ljava/lang/Class;Z)Ljava/lang/reflect/Method; 2161 1 6421 0 1440
+ciMethod java/lang/Class privateGetMethodRecursive (Ljava/lang/String;[Ljava/lang/Class;ZLjava/lang/Class$MethodArray;)Ljava/lang/reflect/Method; 2137 177 6707 0 -1
+ciMethod java/lang/Class argumentTypesToString ([Ljava/lang/Class;)Ljava/lang/String; 609 449 1989 0 -1
+ciMethod java/lang/ClassLoader getClassLoader (Ljava/lang/Class;)Ljava/lang/ClassLoader; 41 1 2434 0 -1
+ciMethod java/lang/System getSecurityManager ()Ljava/lang/SecurityManager; 2049 1 169174 0 0
+ciMethod java/lang/SecurityManager checkPermission (Ljava/security/Permission;)V 0 0 1 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 953 1 246281 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 2089 1 572214 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 1033 1 259115 0 -1
+ciMethod sun/reflect/Reflection getCallerClass ()Ljava/lang/Class; 3081 1 385 0 -1
+ciMethod java/lang/Class$MethodArray <init> (I)V 3105 1 5700 0 -1
+ciMethod java/lang/Class$MethodArray getFirst ()Ljava/lang/reflect/Method; 753 1185 1747 0 -1
+ciMethod java/lang/Class$MethodArray removeLessSpecifics ()V 1217 14257 1618 0 -1
+ciMethodData java/lang/System getSecurityManager ()Ljava/lang/SecurityManager; 2 169174 orig 264 88 29 110 115 0 0 0 0 80 152 104 22 0 0 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 177 158 20 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/NoSuchMethodException <init> (Ljava/lang/String;)V 625 1 1996 0 -1
+ciMethodData java/lang/Class checkMemberAccess (ILjava/lang/Class;Z)V 2 5418 orig 264 88 29 110 115 0 0 0 0 32 240 103 22 0 0 0 0 80 2 0 0 176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 1 0 0 25 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 30 0x2 0x1423 0x70007 0x1423 0xe0 0x0 0xb0002 0x0 0x110005 0x0 0x0 0x0 0x0 0x0 0x170007 0x0 0x70 0x0 0x1e0007 0x0 0x50 0x0 0x260005 0x0 0x0 0x0 0x0 0x0 0x2d0002 0x0 oops 0
+ciMethodData java/lang/Class getMethod0 (Ljava/lang/String;[Ljava/lang/Class;Z)Ljava/lang/reflect/Method; 2 6421 orig 264 88 29 110 115 0 0 0 0 48 2 104 22 0 0 0 0 0 2 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 1 0 0 57 192 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 160 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 20 0x50002 0x1807 0x100002 0x1807 0x170007 0x678 0x20 0x118f 0x1f0005 0x0 0x1efe1b90 0x678 0x0 0x0 0x240005 0x0 0x1efe1b90 0x678 0x0 0x0 oops 2 10 java/lang/Class$MethodArray 16 java/lang/Class$MethodArray
+ciMethodData java/lang/Class getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; 2 5380 orig 264 88 29 110 115 0 0 0 0 64 229 103 22 0 0 0 0 248 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 160 1 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 52 0x20002 0x1400 0x60002 0x1400 0xd0002 0x13ff 0x120007 0x1065 0x170 0x39a 0x1d0002 0x39a 0x210005 0x4 0x31aac10 0x396 0x0 0x0 0x240005 0x4 0x327b100 0x396 0x0 0x0 0x290005 0x4 0x327b100 0x396 0x0 0x0 0x2d0005 0x4 0x327b100 0x396 0x0 0x0 0x310002 0x39a 0x340005 0x4 0x327b100 0x396 0x0 0x0 0x370005 0x4 0x327b100 0x396 0x0 0x0 0x3a0002 0x39a oops 6 14 java/lang/Class 20 java/lang/StringBuilder 26 java/lang/StringBuilder 32 java/lang/StringBuilder 40 java/lang/StringBuilder 46 java/lang/StringBuilder
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass java/lang/invoke/LambdaForm$BMH
+instanceKlass sun/rmi/transport/ObjectTable$1
+instanceKlass com/android/tools/build/apkzlib/zip/ExtraField$$Lambda$1423
+instanceKlass com/android/tools/build/apkzlib/zip/ExtraField$SegmentFactory
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/apksig/DefaultApkSignerEngine$$Lambda$1422
+instanceKlass com/android/apksig/DefaultApkSignerEngine$$Lambda$1421
+instanceKlass com/android/apksig/internal/apk/v1/V1SchemeVerifier$NamedDigest
+instanceKlass com/android/apksig/internal/jar/ManifestParser$Section
+instanceKlass com/android/apksig/internal/jar/ManifestParser$Attribute
+instanceKlass com/android/apksig/internal/jar/ManifestParser
+instanceKlass com/android/apksig/internal/apk/v1/V1SchemeVerifier
+instanceKlass com/android/apksig/internal/apk/v1/V1SchemeVerifier$Result
+instanceKlass com/android/tools/build/apkzlib/sign/SigningExtension$$Lambda$1420
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets$$Lambda$1419
+instanceKlass org/gradle/internal/execution/history/changes/DefaultIncrementalInputProperties$$Lambda$1418
+instanceKlass org/gradle/internal/execution/history/changes/DefaultIncrementalInputProperties$$Lambda$1417
+instanceKlass com/google/common/collect/ForwardingObject
+instanceKlass org/gradle/internal/execution/history/changes/DefaultIncrementalInputProperties$$Lambda$1416
+instanceKlass com/google/common/base/Predicates$CompositionPredicate
+instanceKlass org/gradle/internal/execution/history/changes/DefaultIncrementalInputProperties$$Lambda$1415
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$$Lambda$1414
+instanceKlass com/android/builder/desugaring/TypeDependencies$$Lambda$1413
+instanceKlass com/android/builder/desugaring/DesugaringData
+instanceKlass com/android/builder/utils/ZipEntryUtils
+instanceKlass com/android/builder/desugaring/DesugaringClassAnalyzer
+instanceKlass com/android/build/gradle/internal/transforms/DesugarIncrementalTransformHelper$$Lambda$1412
+instanceKlass com/android/builder/desugaring/TypePaths
+instanceKlass com/android/builder/desugaring/TypeDependencies
+instanceKlass com/android/build/gradle/internal/transforms/DesugarIncrementalTransformHelper$$Lambda$1411
+instanceKlass com/android/build/gradle/internal/transforms/DesugarIncrementalTransformHelper$$Lambda$1410
+instanceKlass java/util/stream/Collectors$$Lambda$1409
+instanceKlass com/android/build/gradle/internal/transforms/TransformInputUtil$$Lambda$1408
+instanceKlass com/android/build/gradle/internal/transforms/TransformInputUtil$$Lambda$1407
+instanceKlass com/android/build/gradle/internal/transforms/DesugarIncrementalTransformHelper$$Lambda$1406
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$1405
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$1404
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$1403
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$1402
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$1401
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$1400
+instanceKlass com/sun/tools/javac/comp/DeferredAttr$5
+instanceKlass com/sun/tools/javac/tree/TreeCopier
+instanceKlass com/sun/tools/javac/comp/DeferredAttr$6
+instanceKlass com/sun/tools/javac/code/Flags
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$1399
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils$WhenMappings
+instanceKlass org/gradle/internal/execution/impl/OutputsCleaner$1
+instanceKlass com/android/tools/r8/ir/desugar/e$a
+instanceKlass com/android/tools/r8/ir/desugar/e
+instanceKlass com/android/tools/r8/n/a/a/a/g/k0
+instanceKlass com/android/tools/r8/ir/optimize/PeepholeOptimizer$$Lambda$1398
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$1397
+instanceKlass com/android/tools/r8/ir/conversion/g0
+instanceKlass com/android/tools/r8/ir/conversion/Q
+instanceKlass com/android/tools/r8/ir/analysis/a
+instanceKlass com/android/tools/r8/graph/AppInfo$$Lambda$1396
+instanceKlass com/android/tools/r8/graph/AppInfo$$Lambda$1395
+instanceKlass com/android/tools/r8/ir/analysis/type/ClassTypeLatticeElement$$Lambda$1394
+instanceKlass com/android/builder/dexing/NoCacheJarClassFileEntry
+instanceKlass com/android/build/gradle/internal/dependency/BaseDexingTransform$transform$1$1$1$1
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/JavaConventionalSourceFileClassNameConverter$$Lambda$1393
+instanceKlass com/android/ide/common/blame/Message
+instanceKlass org/gradle/util/RelativePathUtil
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/CompilationSourceDirs$$Lambda$1392
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/CompilationSourceDirs$$Lambda$1391
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/CompilationSourceDirs$$Lambda$1390
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/InputChangeAction
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/ResourceChangeProcessor
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/AnnotationProcessorChangeProcessor
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/SourceFileChangeProcessor
+instanceKlass com/google/common/collect/ForwardingObject
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/AbstractRecompilationSpecProvider$1
+instanceKlass org/gradle/internal/util/Alignment
+instanceKlass it/unimi/dsi/fastutil/ints/IntOpenHashSet$SetIterator
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/ClasspathChangeDependentsFinder
+instanceKlass org/apache/tools/zip/UnrecognizedExtraField
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/ClasspathEntryChangeProcessor
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/RecompilationSpec
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/CurrentCompilation
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/SelectiveCompiler
+instanceKlass org/gradle/api/internal/tasks/compile/incremental/recomp/PreviousCompilation
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformOutputs$$Lambda$1389
+instanceKlass org/gradle/internal/featurelifecycle/DefaultDeprecatedUsageProgressDetails
+instanceKlass org/gradle/internal/featurelifecycle/DeprecatedUsageProgressDetails
+instanceKlass com/android/build/gradle/internal/tasks/BlocksUtilsKt
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformOutputs
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup$$Lambda$1388
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup$$Lambda$1387
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup$$Lambda$1386
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup$InjectionPoint
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup$$Lambda$1385
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformer$TransformServiceLookup
+instanceKlass org/apache/commons/io/comparator/AbstractFileComparator
+instanceKlass org/objectweb/asm/Handle
+instanceKlass org/objectweb/asm/Context
+instanceKlass org/objectweb/asm/Attribute
+instanceKlass org/objectweb/asm/signature/SignatureVisitor
+instanceKlass org/objectweb/asm/commons/Remapper
+instanceKlass com/google/common/io/Files$1
+instanceKlass com/android/builder/packaging/TypedefRemover
+instanceKlass com/android/tools/build/jetifier/processor/transform/bytecode/CoreRemapperImpl$Companion
+instanceKlass com/android/build/gradle/internal/transforms/LibraryAarJarsTransform$$Lambda$1384
+instanceKlass com/android/tools/build/jetifier/processor/transform/bytecode/CoreRemapperImpl
+instanceKlass com/android/tools/build/jetifier/processor/transform/bytecode/CoreRemapper
+instanceKlass com/android/build/gradle/internal/transforms/LibraryAarJarsTransform$$Lambda$1383
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils$toIncrementalInput$3
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils$toIncrementalInput$2
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils$toIncrementalInput$1
+instanceKlass org/objectweb/asm/ClassReader
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils$toIncrementalInput$5
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalFileMergerTaskUtils$toIncrementalInput$4
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformerInvoker$MutableTransformationWorkspaceIdentity
+instanceKlass com/android/build/gradle/tasks/ZipMergingTask$doTaskAction$usedNamesPredicate$1
+instanceKlass java/rmi/server/Unreferenced
+instanceKlass org/jetbrains/kotlin/gradle/incremental/ChangedFilesKt$ChangedFiles$2
+instanceKlass org/jetbrains/kotlin/gradle/incremental/ChangedFilesKt$ChangedFiles$1
+instanceKlass kotlin/jvm/internal/StringCompanionObject
+instanceKlass org/jetbrains/kotlin/utils/CollectionsKt
+instanceKlass org/jetbrains/kotlin/gradle/tasks/TaskOutputsBackup
+instanceKlass org/gradle/internal/execution/history/changes/NormalizedPathFingerprintCompareStrategy$$Lambda$1382
+instanceKlass org/gradle/internal/execution/history/changes/NormalizedPathFingerprintCompareStrategy$$Lambda$1381
+instanceKlass org/gradle/internal/execution/history/changes/NormalizedPathFingerprintCompareStrategy$$Lambda$1380
+instanceKlass org/gradle/internal/execution/history/changes/ClasspathCompareStrategy$ChangeState
+instanceKlass org/gradle/internal/execution/history/changes/ClasspathCompareStrategy$TrackingVisitor
+instanceKlass com/android/build/gradle/internal/tasks/MergeConsumerProguardFilesTask$$Lambda$1379
+instanceKlass com/android/build/gradle/internal/tasks/MergeFileTask$$Lambda$1378
+instanceKlass kotlin/io/FilePathComponents
+instanceKlass com/android/build/gradle/tasks/ExtractAnnotations$$Lambda$1377
+instanceKlass com/google/common/io/CharSource$$Lambda$1376
+instanceKlass com/google/common/collect/ImmutableSortedMap$1
+instanceKlass com/android/build/gradle/internal/tasks/BundleLibraryClassesKt
+instanceKlass com/android/build/gradle/internal/tasks/BundleLibraryJavaResRunnable$run$predicate$1
+instanceKlass com/android/builder/packaging/JarMerger$$Lambda$1375
+instanceKlass com/android/builder/packaging/JarMerger$$Lambda$1374
+instanceKlass com/android/build/gradle/internal/tasks/BundleLibraryJavaResRunnable$Params
+instanceKlass com/android/build/gradle/internal/tasks/BundleLibraryJavaResRunnable
+instanceKlass com/android/build/gradle/internal/tasks/BundleLibraryClassesRunnable$run$predicate$1
+instanceKlass com/android/build/gradle/internal/tasks/BundleLibraryClassesRunnable$Params
+instanceKlass com/android/build/gradle/internal/tasks/BundleLibraryClassesRunnable
+instanceKlass com/android/build/gradle/tasks/VerifyLibraryResourcesTask$Companion
+instanceKlass kotlin/jvm/JvmStatic
+instanceKlass java/util/Vector$Itr
+instanceKlass com/android/build/gradle/internal/transforms/LibraryJniLibsTransform$$Lambda$1373
+instanceKlass com/android/build/gradle/internal/transforms/LibraryJniLibsTransform$$Lambda$1372
+instanceKlass java/util/zip/ZipOutputStream$XEntry
+instanceKlass org/objectweb/asm/Label
+instanceKlass org/objectweb/asm/Type
+instanceKlass org/objectweb/asm/Frame
+instanceKlass org/objectweb/asm/Item
+instanceKlass com/android/build/gradle/internal/tasks/PublishLintJarRequest
+instanceKlass com/android/build/gradle/internal/tasks/PublishLintJarWorkerRunnable
+instanceKlass org/objectweb/asm/ByteVector
+instanceKlass org/objectweb/asm/FieldVisitor
+instanceKlass org/objectweb/asm/MethodVisitor
+instanceKlass org/objectweb/asm/AnnotationVisitor
+instanceKlass org/objectweb/asm/ModuleVisitor
+instanceKlass org/objectweb/asm/ClassVisitor
+instanceKlass com/android/builder/symbols/BytecodeRClassWriterKt
+instanceKlass com/android/ide/common/symbols/SymbolUtils$mergeAndRenumberSymbols$2
+instanceKlass com/android/ide/common/symbols/IdProvider$Companion$sequential$1
+instanceKlass org/gradle/internal/operations/BuildOperationDescriptor$1
+instanceKlass com/android/builder/symbols/SymbolExportUtils
+instanceKlass com/android/build/gradle/internal/res/GenerateLibraryRFileTask$GenerateLibRFileParams
+instanceKlass com/android/build/gradle/internal/res/GenerateLibraryRFileTask$GenerateLibRFileRunnable
+instanceKlass com/android/ide/common/symbols/ResourceDirectoryParser$parseResourceSourceSetDirectory$$inlined$sortedBy$1
+instanceKlass com/android/ide/common/symbols/ResourceDirectoryParser
+instanceKlass com/android/ide/common/symbols/IdProvider$Companion$constant$1
+instanceKlass com/android/ide/common/symbols/IdProvider$Companion
+instanceKlass com/android/ide/common/symbols/IdProvider
+instanceKlass com/android/build/gradle/internal/res/ParseLibraryResourcesTask$ParseResourcesParams
+instanceKlass com/android/build/gradle/internal/res/ParseLibraryResourcesTask$ParseResourcesRunnable
+instanceKlass com/android/build/gradle/tasks/ProcessApplicationManifest$$Lambda$1371
+instanceKlass com/android/build/gradle/tasks/ProcessApplicationManifest$$Lambda$1370
+instanceKlass com/android/manifmerger/PlaceholderEncoder
+instanceKlass com/android/builder/core/VariantAttributesProvider$SerializableIntSupplier$getAsInt$1
+instanceKlass com/android/builder/core/VariantAttributesProvider$SerializableStringSupplier$get$1
+instanceKlass com/android/build/gradle/tasks/ProcessLibraryManifest$1
+instanceKlass com/android/build/gradle/tasks/ProcessLibraryManifest$ProcessLibParams
+instanceKlass com/android/build/gradle/tasks/ProcessLibraryManifest$ProcessLibRunnable
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalTask$getChangedInputs$2
+instanceKlass com/android/build/gradle/internal/tasks/IncrementalTask$getChangedInputs$1
+instanceKlass org/gradle/internal/execution/history/changes/CollectingChangeVisitor
+instanceKlass org/gradle/internal/execution/history/changes/IncrementalInputChanges
+instanceKlass com/google/common/collect/AbstractMapBasedMultimap$Itr
+instanceKlass java/util/Map$Entry$$Lambda$1369
+instanceKlass org/gradle/internal/execution/history/changes/FilePathWithType
+instanceKlass com/google/common/collect/MultimapBuilder$ArrayListSupplier
+instanceKlass com/google/common/collect/MultimapBuilder$MultimapBuilderWithKeys
+instanceKlass com/google/common/collect/MultimapBuilder
+instanceKlass com/android/ide/common/resources/CopyToOutputDirectoryResourceCompilationService
+instanceKlass com/google/common/base/Equivalence$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/projectmodule/ProjectDependencyResolver$1
+instanceKlass org/gradle/cache/internal/btree/FreeListBlockStore$FreeListEntry
+instanceKlass org/gradle/internal/execution/impl/OutputFilterUtil$$Lambda$1368
+instanceKlass com/android/build/gradle/internal/scope/VariantScopeImpl$$Lambda$1367
+instanceKlass com/android/build/gradle/internal/scope/VariantScopeImpl$$Lambda$1366
+instanceKlass com/android/build/gradle/internal/scope/VariantScopeImpl$$Lambda$1365
+instanceKlass com/android/build/gradle/internal/scope/VariantScopeImpl$$Lambda$1364
+instanceKlass com/android/build/gradle/internal/BaseConfigAdapter$WhenMappings
+instanceKlass com/android/build/gradle/internal/BaseConfigAdapter
+instanceKlass com/android/build/gradle/internal/utils/AndroidXDependency$Companion
+instanceKlass com/android/build/gradle/internal/utils/AndroidXDependency
+instanceKlass com/android/build/gradle/internal/tasks/BundleLibraryJavaRes$sam$org_gradle_api_specs_Spec$0
+instanceKlass com/android/build/gradle/internal/res/GenerateLibraryRFileTask$CreationAction$configure$2
+instanceKlass com/android/build/gradle/internal/res/GenerateLibraryRFileTask$CreationAction$configure$1
+instanceKlass com/android/build/gradle/internal/scope/GlobalScope$$Lambda$1363
+instanceKlass com/android/build/gradle/internal/scope/GlobalScope$$Lambda$1362
+instanceKlass org/codehaus/groovy/runtime/StringGroovyMethods$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/projectresult/DefaultResolvedProjectConfiguration
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/projectresult/ResolvedProjectConfiguration
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/projectmodule/DefaultProjectLocalComponentProvider$1
+instanceKlass com/android/build/gradle/tasks/BundleAar$CreationAction$prependToCopyPath$1$1
+instanceKlass com/android/build/gradle/tasks/BundleAar$CreationAction$prependToCopyPath$1
+instanceKlass org/gradle/api/plugins/BasePlugin$1$2
