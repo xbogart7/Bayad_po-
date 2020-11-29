@@ -1,7 +1,6 @@
 # bayad_po
 
-A new Flutter application.
-
+HackFest 2020 entry of Co-Oops group. 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
